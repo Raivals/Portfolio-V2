@@ -2,6 +2,7 @@
   "name": "raivals-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://raivals.github.io/Portfolio-V2",
   "type": "module",
   "scripts": {
     "dev": "vite",
