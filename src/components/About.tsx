@@ -54,7 +54,7 @@ const About: React.FC = () => {
             >
               <div className="bg-gray-800 rounded-lg overflow-hidden">
                 <img 
-                  src="../../src/assets/profile.jpg" 
+                  src="../../public/assets/profile.jpg" 
                   alt="Profile" 
                   className="w-full h-auto object-cover"
                 />
