@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { MapPin, Mail } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import { personalInfo } from '../data';
 
 const About: React.FC = () => {
@@ -54,7 +54,7 @@ const About: React.FC = () => {
             >
               <div className="bg-gray-800 rounded-lg overflow-hidden">
                 <img 
-                  src="../../public/assets/profile.jpg" 
+                  src="/assets/profile.jpg" 
                   alt="Profile" 
                   className="w-full h-auto object-cover"
                 />
