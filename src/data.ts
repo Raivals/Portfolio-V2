@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: 'Refonte du site web Louis Julian',
     description: 'Création d\'un site e-commerce pour une bijouterie de luxe.',
     tags: ['laravel', 'VueJs', 'Bootstrap'],
-    imageUrl: '../public/assets/Louis julian.png',
+    imageUrl: '/assets/Louis julian.png',
     demoUrl: 'https://www.bijouterie-julian.com/',
     details: {
       overview: 'Refonte complèter de l\'ancien site web de la bijoueterie avec l\'ajout d\'un dashboard entièrement personnalisé',
@@ -17,9 +17,9 @@ export const projects: Project[] = [
         
       ],
       gallery: [
-       '../public/assets/Louis julian.png',
-        '../public/assets/Louis julian 2.png',
-        '../public/assets/Louis julian 3.png',
+       '/assets/Louis julian.png',
+        '/assets/Louis julian 2.png',
+        '/assets/Louis julian 3.png',
       ]
     }
   },
@@ -28,7 +28,7 @@ export const projects: Project[] = [
     title: 'Planet ygo',
     description: 'Site web collaboratif à destination de la communauté compétitive du jeu de carte Yu-Gi-Oh',
     tags: ['Wix'],
-    imageUrl: '../public/assets/planet ygo.png',
+    imageUrl: '/assets/planet ygo.png',
     demoUrl: 'https://www.planetygo.fr/wiki',
     details: {
       overview: 'Site collaboratif réalisé avec un influenceur compétitif yu-gi-oh ! Gabriel Soussi.',
@@ -39,9 +39,9 @@ export const projects: Project[] = [
       
       ],
       gallery: [
-        '../public/assets/planet ygo.png',
-        '../public/assets/planet ygo 2.png',
-        '../public/assets/planet ygo 3.png',
+        '/assets/planet ygo.png',
+        '/assets/planet ygo 2.png',
+        '/assets/planet ygo 3.png',
       ]
     }
   },
@@ -50,7 +50,7 @@ export const projects: Project[] = [
     title: 'Pilot-in landing page',
     description: 'Page d\'accueil du site web Polit\'in réalisé lors d\'un test technique.',
     tags: ['JavaScript', 'HTML', 'CSS'],
-    imageUrl: '../public/assets/Pilotin.png',
+    imageUrl: '/assets/Pilotin.png',
     demoUrl: 'https://pilot-in-test.vercel.app/#!',
     details: {
       overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
@@ -61,7 +61,7 @@ export const projects: Project[] = [
         
       ],
       gallery: [
-        '../public/assets/Pilotin.png',
+        '/assets/Pilotin.png',
         
       ]
     }
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     title: 'Les Audacieuses Académie',
     description: 'Site vitrine réalisée lors du My Digital Project',
     tags: ['Wordpress Elementor'],
-    imageUrl: '../public/assets/audacieuse.png',
+    imageUrl: '/assets/audacieuse.png',
     demoUrl: 'https://romain-bernardot.mds-nancy.yt/',
     details: {
       overview: 'Un site vitrine complet pour notre cliente lors du My Digital Project.',
@@ -82,9 +82,9 @@ export const projects: Project[] = [
         
       ],
       gallery: [
-        '../public/assets/audacieuse.png',
-        '../public/assets/audacieuse 2.png',
-        '../public/assets/audacieuse 3.png'
+        '/assets/audacieuse.png',
+        '/assets/audacieuse 2.png',
+        '/assets/audacieuse 3.png'
         
       ]
     }
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: 'Pilot-in landing page',
     description: 'Page d\'accueil du site web Polit\'in réalisé lors d\'un test technique.',
     tags: ['JavaScript', 'HTML', 'CSS'],
-    imageUrl: '../public/assets/Pilotin.png',
+    imageUrl: '/assets/Pilotin.png',
     demoUrl: 'https://pilot-in-test.vercel.app/#!',
     details: {
       overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
@@ -105,7 +105,7 @@ export const projects: Project[] = [
         
       ],
       gallery: [
-        '../public/assets/Pilotin.png',
+        '/assets/Pilotin.png',
         
       ]
     }
@@ -115,7 +115,7 @@ export const projects: Project[] = [
     title: 'Pilot-in landing page',
     description: 'Page d\'accueil du site web Polit\'in réalisé lors d\'un test technique.',
     tags: ['JavaScript', 'HTML', 'CSS'],
-    imageUrl: '../public/assets/Pilotin.png',
+    imageUrl: '/assets/Pilotin.png',
     demoUrl: 'https://pilot-in-test.vercel.app/#!',
     details: {
       overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
@@ -126,7 +126,7 @@ export const projects: Project[] = [
         
       ],
       gallery: [
-        '../public/assets/Pilotin.png',
+        '/assets/Pilotin.png',
         
       ]
     }
