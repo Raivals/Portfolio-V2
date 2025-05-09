@@ -25,10 +25,30 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-gray-800 z-0"></div>
       
       {/* Animated shapes */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-blue-500/10 rounded-full filter blur-3xl"></div>
-      </div>
+      <motion.div 
+        className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full filter blur-3xl"
+        animate={{
+          scale: [1, 1.2, 1],
+          rotate: [0, 90, 0],
+        }}
+        transition={{
+          duration: 20,
+          repeat: Infinity,
+          ease: "linear"
+        }}
+      />
+      <motion.div 
+        className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-blue-500/10 rounded-full filter blur-3xl"
+        animate={{
+          scale: [1, 1.3, 1],
+          rotate: [0, -90, 0],
+        }}
+        transition={{
+          duration: 15,
+          repeat: Infinity,
+          ease: "linear"
+        }}
+      />
       
       <motion.div
         variants={container}
@@ -61,7 +81,7 @@ const Hero: React.FC = () => {
           variants={item}
           className="flex justify-center space-x-6 mb-16"
         >
-          {socialLinks.map((link) => {
+          {socialLinks.map((link, index) => {
             let Icon;
             switch (link.icon) {
               case 'github':
@@ -81,16 +101,18 @@ const Hero: React.FC = () => {
             }
             
             return (
-              <a 
+              <motion.a 
                 key={link.name}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 aria-label={link.name}
+                whileHover={{ scale: 1.2, rotate: 5 }}
+                whileTap={{ scale: 0.9 }}
               >
                 <Icon size={24} />
-              </a>
+              </motion.a>
             );
           })}
         </motion.div>
@@ -100,6 +122,15 @@ const Hero: React.FC = () => {
           href="#about"
           className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors duration-300"
           aria-label="Scroll down"
+          whileHover={{ y: 5 }}
+          animate={{
+            y: [0, 10, 0],
+          }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }}
         >
           <ArrowDown size={20} />
         </motion.a>

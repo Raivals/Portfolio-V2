@@ -91,42 +91,44 @@ export const projects: Project[] = [
   },
   {
     id: 'project-5',
-    title: 'Pilot-in landing page',
-    description: 'Page d\'accueil du site web Polit\'in réalisé lors d\'un test technique.',
-    tags: ['JavaScript', 'HTML', 'CSS'],
-    imageUrl: '/assets/Pilotin.png',
-    demoUrl: 'https://pilot-in-test.vercel.app/#!',
+    title: 'Top ou Flop',
+    description: 'Projet podcast d\'une quizaine de minutes réalisé au sein de My Digital School. Le sujet était Le chat by Mistral.',
+    tags: ['Premiere Pro', 'After Effect'],
+    imageUrl: '/assets/mockup-topouflop-desktop.png',
+    demoUrl: '',
     details: {
-      overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
-      challenges: 'Intégrer la page d\'accueil complète en 4h',
-      solutions: 'Built a unified data adapter layer to normalize data from different APIs. Used Chart.js with custom configurations for weather-specific visualizations.',
-      technologies: ['JavaScript', 'OpenWeather API', 'Chart.js', 'Geolocation API', 'LocalStorage', 'CSS Grid'],
+      overview: 'Une expérience très enrichissante, qui m\'a permis de découvrir l\'IA mistral et de développer mes compétences de montage vidéo & animation',
+      challenges: 'Enregistrer un podcast, écrire le script et tourner.',
+      solutions: '',
+      technologies: ['Premiere Pro', 'After Effect'],
       highlights: [
         
       ],
       gallery: [
-        '/assets/Pilotin.png',
+        '/assets/mockup-topouflop-desktop.png',
         
       ]
     }
   },
   {
     id: 'project-6',
-    title: 'Pilot-in landing page',
-    description: 'Page d\'accueil du site web Polit\'in réalisé lors d\'un test technique.',
+    title: 'L\Expert Fenêtre - Isolation et Habitat',
+    description: 'J\'ai réalisé mon alternance chez L\'Expert Fenêtre (entreprise spécialisée dans la vente et la pose de menuiseries) en tant que web designer / community manager. J\'ai appris à utiliser la suite adobe pour réaliser des visuels/vidéos ...',
     tags: ['JavaScript', 'HTML', 'CSS'],
-    imageUrl: '/assets/Pilotin.png',
-    demoUrl: 'https://pilot-in-test.vercel.app/#!',
+    imageUrl: '/assets/expert fenetre site.png',
+    demoUrl: 'https://www.lexpert-fenetre-54.com/',
     details: {
-      overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
+      overview: 'L\'alternance a été une expérience très enrichissante. J\'ai appris énormément au niveau design et UI UX ce que va me permettre de développer un sens du design et le l\'interface bien plus aiguisé.',
       challenges: 'Intégrer la page d\'accueil complète en 4h',
       solutions: 'Built a unified data adapter layer to normalize data from different APIs. Used Chart.js with custom configurations for weather-specific visualizations.',
-      technologies: ['JavaScript', 'OpenWeather API', 'Chart.js', 'Geolocation API', 'LocalStorage', 'CSS Grid'],
+      technologies: ['Suite Adobe', 'Notion', ' Meta Business', 'Espace pro fournisseurs'],
       highlights: [
         
       ],
       gallery: [
-        '/assets/Pilotin.png',
+        '/assets/expert fenetre site.png',
+        '/assets/visuel ksm.jpg',
+        '/assets/visuel avant apres.jpg',
         
       ]
     }
