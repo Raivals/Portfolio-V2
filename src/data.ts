@@ -56,7 +56,7 @@ export const projects: Project[] = [
       overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
       challenges: 'Intégrer la page d\'accueil complète en 4h',
       solutions: '',
-      technologies: ['JavaScript', 'OpenWeather API', 'Chart.js', 'Geolocation API', 'LocalStorage', 'CSS Grid'],
+      technologies: ['JavaScript', 'HTML', 'CSS'],
       highlights: [
         
       ],

@@ -156,7 +156,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onClose }) => {
                     className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
                   >
                     <ExternalLink size={18} />
-                    <span>Live Demo</span>
+                    <span>Voir le site</span>
                   </a>
                 )}
                 
@@ -176,16 +176,16 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onClose }) => {
             
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               <div className="lg:col-span-2">
-                <h3 className="text-xl font-semibold text-white mb-4">Overview</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">Information générales</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">{project.details.overview}</p>
                 
-                <h3 className="text-xl font-semibold text-white mb-4">Challenges & Solutions</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">Challenges et solutions</h3>
                 <div className="mb-6">
                   <p className="text-gray-300 mb-4 leading-relaxed">{project.details.challenges}</p>
                   <p className="text-gray-300 leading-relaxed">{project.details.solutions}</p>
                 </div>
                 
-                <h3 className="text-xl font-semibold text-white mb-4">Key Highlights</h3>
+                <h3 className="text-xl font-semibold text-white mb-4"></h3>
                 <ul className="list-disc list-inside text-gray-300 mb-6 space-y-2">
                   {project.details.highlights.map((highlight, index) => (
                     <li key={index} className="leading-relaxed">{highlight}</li>
@@ -194,7 +194,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onClose }) => {
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold text-white mb-4">Technologies Used</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">Technologies utilisées</h3>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.details.technologies.map((tech, index) => (
                     <span
