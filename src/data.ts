@@ -114,13 +114,13 @@ export const projects: Project[] = [
     id: 'project-6',
     title: 'L\Expert Fenêtre - Isolation et Habitat',
     description: 'J\'ai réalisé mon alternance chez L\'Expert Fenêtre (entreprise spécialisée dans la vente et la pose de menuiseries) en tant que web designer / community manager. J\'ai appris à utiliser la suite adobe pour réaliser des visuels/vidéos ...',
-    tags: ['JavaScript', 'HTML', 'CSS'],
+    tags: ['Suite Adobe', 'Notion', ' Meta Business', 'Espace pro fournisseurs'],
     imageUrl: '/assets/expert fenetre site.png',
     demoUrl: 'https://www.lexpert-fenetre-54.com/',
     details: {
       overview: 'L\'alternance a été une expérience très enrichissante. J\'ai appris énormément au niveau design et UI UX ce que va me permettre de développer un sens du design et le l\'interface bien plus aiguisé.',
       challenges: 'Intégrer la page d\'accueil complète en 4h',
-      solutions: 'Built a unified data adapter layer to normalize data from different APIs. Used Chart.js with custom configurations for weather-specific visualizations.',
+      solutions: '',
       technologies: ['Suite Adobe', 'Notion', ' Meta Business', 'Espace pro fournisseurs'],
       highlights: [
         
