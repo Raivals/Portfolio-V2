@@ -17,7 +17,7 @@ export const projects: Project[] = [
         'Développement d’un back-office personnalisé',
         'Intégration du paiement et gestion des commandes',
         'Refonte UX et optimisation du parcours d’achat',
-        'Mise en production d’un site e-commerce fonctionnel'
+        'Mise en production d’un site e-commerce fonctionnel',
       ],
       gallery: [
        '/assets/Louis julian.png',
@@ -41,7 +41,7 @@ export const projects: Project[] = [
       highlights: [
         'Collaboration avec un influenceur reconnu',
         'Structuration d’une base de données communautaire',
-        'Optimisation de la lisibilité et de l’expérience utilisateur'
+        'Optimisation de la lisibilité et de l’expérience utilisateur',
       ],
       gallery: [
         '/assets/planet ygo.png',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
       highlights: [
         'Intégration pixel-perfect',
         'Respect strict du timing',
-        'Interface responsive et fluide'
+        'Interface responsive et fluide',
       ],
       gallery: [
         '/assets/Pilotin.png',
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     title: 'Les Audacieuses Académie',
     description: 'Création complète d’un site vitrine avec une approche UI/UX structurée, du wireframe jusqu’à l’intégration WordPress.',
     tags: ['Wordpress Elementor, Figma'],
-    imageUrl: '/assets/Audacieuses-1.png',
+    imageUrl: 'assets/Audacieuses-1.png',
     details: {
       overview: 'Réalisation d’un site vitrine destiné à valoriser l’image et les offres de la cliente, en passant par une phase complète de recherche UX, design UI puis intégration WordPress.',
       challenges: 'Transformer une maquette Figma en site fonctionnel tout en conservant la cohérence graphique et l’expérience utilisateur.',
@@ -91,7 +91,7 @@ export const projects: Project[] = [
       gallery: [
         '/assets/Audacieuses-1.png',
         '/assets/Audacieuses-2.png',
-        '/assets/Audacieuses-3.png'
+        '/assets/Audacieuses-3.png',
         
       ]
     }
@@ -111,7 +111,7 @@ export const projects: Project[] = [
       highlights: [
         'Gestion complète de la production',
         'Motion design et montage avancé',
-        'Travail de narration et de rythme'
+        'Travail de narration et de rythme',
       ],
       gallery: [
         '/assets/mockup-topouflop-desktop.png',
@@ -149,7 +149,7 @@ export const projects: Project[] = [
     title: 'Hyper Planning',
     description: 'Projet UI/UX visant à repenser l’interface d’un outil de gestion de planning pour une expérience plus intuitive.',
     tags: ['Figma', 'Design UI/UX', 'Web Design'],
-    imageUrl: '/assets/HPP-1.jpg',
+    imageUrl: '/public/assets/hpp-1.png',
     details: {
       overview: 'Travail de conception UX et UI autour d’une plateforme de planification, avec réflexion sur les parcours utilisateurs et la hiérarchie de l’information.',
       challenges: 'Simplifier une interface complexe tout en conservant toutes ses fonctionnalités.',
@@ -158,14 +158,14 @@ export const projects: Project[] = [
       highlights: [
         'Travail UX approfondi',
         'Design d’une interface moderne',
-        'Prototypage interactif'
+        'Prototypage interactif',
 
       ],
       gallery: [ 
-        '/assets/HPP-1.jpg',
-        '/assets/HPP-2.jpg',
-        '/assets/HPP-3.jpg',
-        '/assets/HPP-4.jpg',
+        '/public/assets/hpp-1.png',
+        '/public/assets/hpp-2.png',
+        '/public/assets/hpp-3.png',
+        '/public/assets/hpp-4.png',
         
       ]
     }
@@ -175,7 +175,7 @@ export const projects: Project[] = [
     title: 'Proposition redesign Gîte de la Bresse',
     description: 'Proposition de redesign UI/UX pour un site touristique afin d’améliorer l’attractivité et les réservations.',
     tags: ['Figma', 'Design UI/UX', 'Web Design'],
-    imageUrl: '/assets/Bresse-1.jpg',
+    imageUrl: '/public/assets/Bresse-1.png',
     details: {
       overview: 'Refonte visuelle et structurelle du site du Gîte de la Bresse avec un objectif d’amélioration de l’expérience utilisateur et de conversion.',
       challenges: 'Rendre le site plus attractif tout en facilitant l’accès à l’information.',
@@ -184,11 +184,11 @@ export const projects: Project[] = [
       highlights: [
         'Design orienté conversion',
         'Amélioration de l’expérience utilisateur',
-        'Valorisation de l’offre touristique'
+        'Valorisation de l’offre touristique',
       ],
       gallery: [
-        '/assets/Bresse-1.jpg',
-        '/assets/Bresse-2.jpg', 
+        '/public/assets/Bresse-1.png',
+        '/public/assets/Bresse-2.png', 
       ]
     }
   }
@@ -249,7 +249,7 @@ export const socialLinks: SocialLink[] = [
 
 export const personalInfo = {
   name: 'Romain BERNARDOT',
-  title: 'Développeur Web et Web Designer',
+  title: 'Chargé de communication & Web Designer',
   location: 'Nancy, France',
-  bio: ' "Etudiant en licence de web design. Je suis passioné par l\'expérience utilisateur et le design interactif. J\'allie ma créativité et mes compétences techniques en développement front-end pour concevoir des interfaces modernes et performantes. Je suis prêt à relever plus de défis, et donner vie à vos projets."'
+  bio: ' "Chargé de communication multi-casquette.  Je suis passioné par la communication numérique, l\'expérience utilisateur et le design interactif. J\'allie ma créativité et mes compétences techniques en développement front-end pour concevoir des interfaces modernes et performantes. Je suis prêt à relever plus de défis, et donner vie à vos projets."'
 };
