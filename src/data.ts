@@ -144,32 +144,53 @@ export const projects: Project[] = [
       ]
     }
   },
+  // {
+  //   id: 'project-7',
+  //   title: 'Hyper Planning',
+  //   description: 'Projet UI/UX visant à repenser l’interface d’un outil de gestion de planning pour une expérience plus intuitive.',
+  //   tags: ['Figma', 'Design UI/UX', 'Web Design'],
+  //   imageUrl: '/public/assets/hpp-1.png',
+  //   details: {
+  //     overview: 'Travail de conception UX et UI autour d’une plateforme de planification, avec réflexion sur les parcours utilisateurs et la hiérarchie de l’information.',
+  //     challenges: 'Simplifier une interface complexe tout en conservant toutes ses fonctionnalités.',
+  //     solutions: 'Prototypage sous Figma, création de wireframes, puis design d’une interface claire et moderne.',
+  //     technologies: ['Figma', 'Design UI/UX', 'Web Design'],
+  //     highlights: [
+  //       'Travail UX approfondi',
+  //       'Design d’une interface moderne',
+  //       'Prototypage interactif',
+
+  //     ],
+  //     gallery: [ 
+  //       '/public/assets/hpp-1.png',
+  //       '/public/assets/hpp-2.png',
+  //       '/public/assets/hpp-3.png',
+  //       '/public/assets/hpp-4.png',
+  //     ]
+  //   }
+  // },
   {
     id: 'project-7',
-    title: 'Hyper Planning',
-    description: 'Projet UI/UX visant à repenser l’interface d’un outil de gestion de planning pour une expérience plus intuitive.',
+    title: 'Proposition redesign Gîte de la Bresse',
+    description: 'Proposition de redesign UI/UX pour un site touristique afin d’améliorer l’attractivité et les réservations.',
     tags: ['Figma', 'Design UI/UX', 'Web Design'],
-    imageUrl: '/public/assets/hpp-1.png',
+    imageUrl: '/assets/Bresse-1.png',
     details: {
-      overview: 'Travail de conception UX et UI autour d’une plateforme de planification, avec réflexion sur les parcours utilisateurs et la hiérarchie de l’information.',
-      challenges: 'Simplifier une interface complexe tout en conservant toutes ses fonctionnalités.',
-      solutions: 'Prototypage sous Figma, création de wireframes, puis design d’une interface claire et moderne.',
+      overview: 'Refonte visuelle et structurelle du site du Gîte de la Bresse avec un objectif d’amélioration de l’expérience utilisateur et de conversion.',
+      challenges: 'Rendre le site plus attractif tout en facilitant l’accès à l’information.',
+      solutions: 'Refonte graphique sous Figma, nouvelle hiérarchie visuelle et mise en avant des points forts du gîte.',
       technologies: ['Figma', 'Design UI/UX', 'Web Design'],
       highlights: [
-        'Travail UX approfondi',
-        'Design d’une interface moderne',
-        'Prototypage interactif',
-
+        'Design orienté conversion',
+        'Amélioration de l’expérience utilisateur',
+        'Valorisation de l’offre touristique',
       ],
-      gallery: [ 
-        '/public/assets/hpp-1.png',
-        '/public/assets/hpp-2.png',
-        '/public/assets/hpp-3.png',
-        '/public/assets/hpp-4.png',
+      gallery: [
+        '/assets/Bresse-1.png',
+        '/assets/Bresse-2.png', 
       ]
     }
-  },
-  {
+  },{
     id: 'project-8',
     title: 'Proposition redesign Gîte de la Bresse',
     description: 'Proposition de redesign UI/UX pour un site touristique afin d’améliorer l’attractivité et les réservations.',
