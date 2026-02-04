@@ -186,10 +186,10 @@ export const projects: Project[] = [
         'Valorisation de l’offre touristique',
       ],
       gallery: [
-        '/assets/hpp-1.png',
-        '/assets/hpp-2.png',
-        '/assets/hpp-3.png',
-        '/assets/hpp-4.png',
+        '/assets/hyperplanning 1.png',
+        '/assets/hyperplanning 2.png',
+        '/assets/hyperplanning 3.png',
+        '/assets/hyperplanning 4.png',
       ]
     }
   },{
