@@ -69,12 +69,11 @@ export const projects: Project[] = [
   {
     id: 'project-4',
     title: 'Les Audacieuses Académie',
-    description: 'Site vitrine réalisée lors du My Digital Project',
-    tags: ['Wordpress Elementor'],
+    description: 'Site vitrine réalisée en premier lieu avec une étude complète UI&UX puis intégration avec Wordpress Elementor.',
+    tags: ['Wordpress Elementor, Figma'],
     imageUrl: '/assets/audacieuse.png',
-    demoUrl: 'https://romain-bernardot.mds-nancy.yt/',
     details: {
-      overview: 'Un site vitrine complet pour notre cliente lors du My Digital Project.',
+      overview: 'Un site vitrine complet pour notre cliente.',
       challenges: 'Intégrer un site vitrine avec l\'outil Wordpress Elementor',
       solutions: '',
       technologies: ['Wordpress Elementor'],
@@ -174,7 +173,7 @@ export const experiences: Experience[] = [
   },
   {
     title: 'Dessinateur projeteur',
-    company: 'Openclassrooms',
+    company: 'Datadess',
     period: '2018-2021',
     description: 'Prestataire de service en tant que dessinateur industriel pour de la protection de sites sensibles.',
     tags: ['Autocad', 'Solidworks']

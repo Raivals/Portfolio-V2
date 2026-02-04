@@ -79,7 +79,7 @@ const About: React.FC = () => {
               </h3>
               
               <p className="text-gray-300 mb-6 leading-relaxed">
-              J'ai actuellement 27 ans, je cherche de nouvelles opportunités dans la région lyonnaise en tant developpeur front-end ou web designer.
+              J'ai actuellement 27 ans, je cherche de nouvelles opportunités dans la région Auvergne Rhône Alpes en tant Chargé de communication et/ou web designer.
               </p>
               
     
