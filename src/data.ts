@@ -174,7 +174,7 @@ export const projects: Project[] = [
     title: 'Proposition redesign Gîte de la Bresse',
     description: 'Proposition de redesign UI/UX pour un site touristique afin d’améliorer l’attractivité et les réservations.',
     tags: ['Figma', 'Design UI/UX', 'Web Design'],
-    imageUrl: '/assets/Bresse-1.png',
+    imageUrl: '/assets/hpp-1.png',
     details: {
       overview: 'Refonte visuelle et structurelle du site du Gîte de la Bresse avec un objectif d’amélioration de l’expérience utilisateur et de conversion.',
       challenges: 'Rendre le site plus attractif tout en facilitant l’accès à l’information.',
@@ -186,8 +186,10 @@ export const projects: Project[] = [
         'Valorisation de l’offre touristique',
       ],
       gallery: [
-        '/assets/Bresse-1.png',
-        '/assets/Bresse-2.png', 
+        '/assets/hpp-1.png',
+        '/assets/hpp-2.png',
+        '/assets/hpp-3.png',
+        '/assets/hpp-4.png',
       ]
     }
   },{
