@@ -149,7 +149,7 @@ export const projects: Project[] = [
     title: 'Hyper Planning',
     description: 'Projet UI/UX visant à repenser l’interface d’un outil de gestion de planning pour une expérience plus intuitive.',
     tags: ['Figma', 'Design UI/UX', 'Web Design'],
-    imageUrl: '/public/assets/hpp-1.png',
+    imageUrl: '/assets/hpp-1.png',
     details: {
       overview: 'Travail de conception UX et UI autour d’une plateforme de planification, avec réflexion sur les parcours utilisateurs et la hiérarchie de l’information.',
       challenges: 'Simplifier une interface complexe tout en conservant toutes ses fonctionnalités.',
@@ -162,10 +162,10 @@ export const projects: Project[] = [
 
       ],
       gallery: [ 
-        '/public/assets/hpp-1.png',
-        '/public/assets/hpp-2.png',
-        '/public/assets/hpp-3.png',
-        '/public/assets/hpp-4.png',
+        '/assets/hpp-1.png',
+        '/assets/hpp-2.png',
+        '/assets/hpp-3.png',
+        '/assets/hpp-4.png',
       ]
     }
   },
