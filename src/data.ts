@@ -4,17 +4,20 @@ export const projects: Project[] = [
   {
     id: 'project-1',
     title: 'Refonte du site web Louis Julian',
-    description: 'Création d\'un site e-commerce pour une bijouterie de luxe.',
+    description: 'Refonte complète et développement d’un site e-commerce premium pour une bijouterie de luxe, avec back-office sur-mesure pour la gestion des produits, commandes et contenus.',
     tags: ['laravel', 'VueJs', 'Bootstrap'],
     imageUrl: '/assets/Louis julian.png',
     demoUrl: 'https://www.bijouterie-julian.com/',
     details: {
-      overview: 'Refonte complèter de l\'ancien site web de la bijoueterie avec l\'ajout d\'un dashboard entièrement personnalisé',
-      challenges: 'Je n\avais aucune connaissance de PHP ni de VueJS mais j\'ai sû m\'adapter très rapidement afin de devenir opérationnel sur le projet',
-      solutions: '',
+      overview: 'Refonte totale de l’ancien site de la bijouterie Louis Julian afin de moderniser son image, améliorer l’expérience utilisateur et augmenter les performances commerciales. Le projet inclut un site e-commerce complet et un dashboard personnalisé permettant au client de gérer son activité en toute autonomie.',
+      challenges: 'Je n’avais aucune expérience préalable en PHP ni en Vue.js. J’ai dû monter rapidement en compétence afin d’être pleinement opérationnel sur un projet e-commerce complexe, impliquant gestion des paiements, sécurité et interface d’administration.',
+      solutions: 'Auto-formation intensive, documentation, tests continus et itérations rapides. J’ai structuré le projet de manière modulaire afin de sécuriser les flux de données, fluidifier l’expérience utilisateur et garantir la stabilité de la plateforme.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Redux', 'Stripe API', 'JWT', 'Redis'],
       highlights: [
-        
+        'Développement d’un back-office personnalisé',
+        'Intégration du paiement et gestion des commandes',
+        'Refonte UX et optimisation du parcours d’achat',
+        'Mise en production d’un site e-commerce fonctionnel'
       ],
       gallery: [
        '/assets/Louis julian.png',
@@ -26,17 +29,19 @@ export const projects: Project[] = [
   {
     id: 'project-2',
     title: 'Planet ygo',
-    description: 'Site web collaboratif à destination de la communauté compétitive du jeu de carte Yu-Gi-Oh',
+    description: 'Plateforme communautaire dédiée à la scène compétitive Yu-Gi-Oh, centralisant classements, contenus d’influenceurs et ressources stratégiques.',
     tags: ['Wix'],
     imageUrl: '/assets/planet ygo.png',
     demoUrl: 'https://www.planetygo.fr/wiki',
     details: {
-      overview: 'Site collaboratif réalisé avec un influenceur compétitif yu-gi-oh ! Gabriel Soussi.',
-      challenges: 'Créer un site web qui répertorie les classements ainsi que le contenu des influenceurs Yu-Gi-Oh! réalisé avec le CMS Wix.',
-      solutions: '',
+      overview: 'Site collaboratif conçu avec l’influenceur Gabriel Soussi afin de rassembler la communauté Yu-Gi-Oh autour de contenus compétitifs, statistiques, classements et guides.',
+      challenges: 'Créer une plateforme claire et structurée à partir d’un CMS no-code (Wix) tout en gérant une forte quantité de contenus et une audience spécialisée.',
+      solutions: 'Structuration de l’architecture de l’information, organisation des pages, création de templates cohérents et hiérarchisation des contenus pour garantir une navigation fluide.',
       technologies: ['Wix'],
       highlights: [
-      
+        'Collaboration avec un influenceur reconnu',
+        'Structuration d’une base de données communautaire',
+        'Optimisation de la lisibilité et de l’expérience utilisateur'
       ],
       gallery: [
         '/assets/planet ygo.png',
@@ -48,42 +53,45 @@ export const projects: Project[] = [
   {
     id: 'project-3',
     title: 'Pilot-in landing page',
-    description: 'Page d\'accueil du site web Polit\'in réalisé lors d\'un test technique.',
+    description: 'Landing page développée lors d’un test technique, visant à démontrer mes compétences en intégration, UX et respect de contraintes de temps.',
     tags: ['JavaScript', 'HTML', 'CSS'],
     imageUrl: '/assets/Pilotin.png',
     demoUrl: 'https://pilot-in-test.vercel.app/#!',
     details: {
-      overview: 'Une page d\'accueil réalisée avec HTML CSS et Javascript',
-      challenges: 'Intégrer la page d\'accueil complète en 4h',
-      solutions: '',
+      overview: 'Intégration complète d’une landing page responsive en HTML, CSS et JavaScript à partir d’une maquette fournie.',
+      challenges: 'Reproduire fidèlement le design et les interactions en seulement 4 heures tout en assurant performance, lisibilité et compatibilité navigateurs.',
+      solutions: 'Organisation du travail en sprints courts, priorisation des composants clés et développement modulaire pour garantir un rendu professionnel dans un délai serré.',
       technologies: ['JavaScript', 'HTML', 'CSS'],
       highlights: [
-        
+        'Intégration pixel-perfect',
+        'Respect strict du timing',
+        'Interface responsive et fluide'
       ],
       gallery: [
         '/assets/Pilotin.png',
-        
       ]
     }
   },
   {
     id: 'project-4',
     title: 'Les Audacieuses Académie',
-    description: 'Site vitrine réalisée en premier lieu avec une étude complète UI&UX puis intégration avec Wordpress Elementor.',
+    description: 'Création complète d’un site vitrine avec une approche UI/UX structurée, du wireframe jusqu’à l’intégration WordPress.',
     tags: ['Wordpress Elementor, Figma'],
-    imageUrl: '/assets/audacieuse.png',
+    imageUrl: '/assets/Audacieuses-1.png',
     details: {
-      overview: 'Un site vitrine complet pour notre cliente.',
-      challenges: 'Intégrer un site vitrine avec l\'outil Wordpress Elementor',
-      solutions: '',
+      overview: 'Réalisation d’un site vitrine destiné à valoriser l’image et les offres de la cliente, en passant par une phase complète de recherche UX, design UI puis intégration WordPress.',
+      challenges: 'Transformer une maquette Figma en site fonctionnel tout en conservant la cohérence graphique et l’expérience utilisateur.',
+      solutions: 'Utilisation d’Elementor pour reproduire fidèlement le design, structuration claire des pages et optimisation de la navigation.',
       technologies: ['Wordpress Elementor'],
       highlights: [
-        
+        'Étude UX & UI complète',
+        'Design moderne et professionnel',
+        'Site administrable par la cliente'
       ],
       gallery: [
-        '/assets/audacieuse.png',
-        '/assets/audacieuse 2.png',
-        '/assets/audacieuse 3.png'
+        '/assets/Audacieuses-1.png',
+        '/assets/Audacieuses-2.png',
+        '/assets/Audacieuses-3.png'
         
       ]
     }
@@ -91,17 +99,19 @@ export const projects: Project[] = [
   {
     id: 'project-5',
     title: 'Top ou Flop',
-    description: 'Projet podcast d\'une quizaine de minutes réalisé au sein de My Digital School. Le sujet était Le chat by Mistral.',
+    description: 'Podcast vidéo réalisé autour de l’IA Mistral, incluant écriture, tournage, montage et motion design.',
     tags: ['Premiere Pro', 'After Effect'],
     imageUrl: '/assets/mockup-topouflop-desktop.png',
     demoUrl: '',
     details: {
-      overview: 'Une expérience très enrichissante, qui m\'a permis de découvrir l\'IA mistral et de développer mes compétences de montage vidéo & animation',
-      challenges: 'Enregistrer un podcast, écrire le script et tourner.',
-      solutions: '',
+      overview: 'Projet audiovisuel réalisé dans le cadre de My Digital School, mêlant storytelling, vulgarisation et montage dynamique.',
+      challenges: 'Gérer l’ensemble de la production : écriture du script, tournage, montage, habillage graphique et rythme.',
+      solutions: 'Utilisation de Premiere Pro pour le montage et After Effects pour l’animation, afin de créer un contenu fluide, moderne et engageant.',
       technologies: ['Premiere Pro', 'After Effect'],
       highlights: [
-        
+        'Gestion complète de la production',
+        'Motion design et montage avancé',
+        'Travail de narration et de rythme'
       ],
       gallery: [
         '/assets/mockup-topouflop-desktop.png',
@@ -112,23 +122,73 @@ export const projects: Project[] = [
   {
     id: 'project-6',
     title: 'L\Expert Fenêtre - Isolation et Habitat',
-    description: 'J\'ai réalisé mon alternance chez L\'Expert Fenêtre (entreprise spécialisée dans la vente et la pose de menuiseries) en tant que web designer / community manager. J\'ai appris à utiliser la suite adobe pour réaliser des visuels/vidéos ...',
+    description: 'Alternance en tant que web designer et community manager pour une entreprise du bâtiment, avec création de contenus, gestion des réseaux et supports commerciaux.',
     tags: ['Suite Adobe', 'Notion', ' Meta Business', 'Espace pro fournisseurs'],
     imageUrl: '/assets/expert fenetre site.png',
     demoUrl: 'https://www.lexpert-fenetre-54.com/',
     details: {
-      overview: 'L\'alternance a été une expérience très enrichissante. J\'ai appris énormément au niveau design et UI UX ce que va me permettre de développer un sens du design et le l\'interface bien plus aiguisé.',
-      challenges: 'Intégrer la page d\'accueil complète en 4h',
-      solutions: '',
+      overview: 'Expérience complète mêlant design, communication et digital. J’ai contribué à la visibilité de l’entreprise via des supports graphiques, vidéos et une amélioration de l’image de marque.',
+      challenges: 'Maintenir une communication cohérente tout en produisant régulièrement des contenus visuels attractifs.',
+      solutions: 'Mise en place d’une organisation via Notion, création de templates graphiques et gestion centralisée des supports.',
       technologies: ['Suite Adobe', 'Notion', ' Meta Business', 'Espace pro fournisseurs'],
       highlights: [
-        
+        'Création de visuels marketing',
+        'Gestion de la communication digitale',
+        'Amélioration de l’image de marque',
       ],
       gallery: [
         '/assets/expert fenetre site.png',
         '/assets/visuel ksm.jpg',
         '/assets/visuel avant apres.jpg',
         
+      ]
+    }
+  },
+  {
+    id: 'project-7',
+    title: 'Hyper Planning',
+    description: 'Projet UI/UX visant à repenser l’interface d’un outil de gestion de planning pour une expérience plus intuitive.',
+    tags: ['Figma', 'Design UI/UX', 'Web Design'],
+    imageUrl: '/assets/HPP-1.jpg',
+    details: {
+      overview: 'Travail de conception UX et UI autour d’une plateforme de planification, avec réflexion sur les parcours utilisateurs et la hiérarchie de l’information.',
+      challenges: 'Simplifier une interface complexe tout en conservant toutes ses fonctionnalités.',
+      solutions: 'Prototypage sous Figma, création de wireframes, puis design d’une interface claire et moderne.',
+      technologies: ['Figma', 'Design UI/UX', 'Web Design'],
+      highlights: [
+        'Travail UX approfondi',
+        'Design d’une interface moderne',
+        'Prototypage interactif'
+
+      ],
+      gallery: [ 
+        '/assets/HPP-1.jpg',
+        '/assets/HPP-2.jpg',
+        '/assets/HPP-3.jpg',
+        '/assets/HPP-4.jpg',
+        
+      ]
+    }
+  },
+  {
+    id: 'project-8',
+    title: 'Proposition redesign Gîte de la Bresse',
+    description: 'Proposition de redesign UI/UX pour un site touristique afin d’améliorer l’attractivité et les réservations.',
+    tags: ['Figma', 'Design UI/UX', 'Web Design'],
+    imageUrl: '/assets/Bresse-1.jpg',
+    details: {
+      overview: 'Refonte visuelle et structurelle du site du Gîte de la Bresse avec un objectif d’amélioration de l’expérience utilisateur et de conversion.',
+      challenges: 'Rendre le site plus attractif tout en facilitant l’accès à l’information.',
+      solutions: 'Refonte graphique sous Figma, nouvelle hiérarchie visuelle et mise en avant des points forts du gîte.',
+      technologies: ['Figma', 'Design UI/UX', 'Web Design'],
+      highlights: [
+        'Design orienté conversion',
+        'Amélioration de l’expérience utilisateur',
+        'Valorisation de l’offre touristique'
+      ],
+      gallery: [
+        '/assets/Bresse-1.jpg',
+        '/assets/Bresse-2.jpg', 
       ]
     }
   }
