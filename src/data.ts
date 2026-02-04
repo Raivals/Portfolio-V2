@@ -162,10 +162,10 @@ export const projects: Project[] = [
 
       ],
       gallery: [ 
-        '/assets/hpp-1.png',
-        '/assets/hpp-2.png',
-        '/assets/hpp-3.png',
-        '/assets/hpp-4.png',
+        'public/assets/hpp-1.png',
+        'public/assets/hpp-2.png',
+        'public/assets/hpp-3.png',
+        'public/assets/hpp-4.png',
       ]
     }
   },
